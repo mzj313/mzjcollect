@@ -1,0 +1,1 @@
+package org.mzj.test.service;import java.util.List;import org.mzj.test.model.User;public interface UserService {    User getUserById(int id);    List<User> getUsersByName(String name);}
